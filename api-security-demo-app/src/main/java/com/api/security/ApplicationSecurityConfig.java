@@ -31,11 +31,10 @@ public class ApplicationSecurityConfig extends WebSecurityConfigurerAdapter {
 	@Override
 	public void configure(HttpSecurity http) throws Exception {
 		// super.configure(http);
-		http.csrf().csrfTokenRepository(CookieCsrfTokenRepository.withHttpOnlyFalse()).and().authorizeRequests()
-				.antMatchers("/", "index", "/css/*", "/js/*").permitAll().antMatchers("/api/**")
-				.hasAnyRole(STUDENT.name()).anyRequest().authenticated()
-				.and().formLogin().loginPage("/login")
-				.permitAll().defaultSuccessUrl("/courses",true);
+		// http.csrf().csrfTokenRepository(CookieCsrfTokenRepository.withHttpOnlyFalse()).and()
+		http.csrf().disable().authorizeRequests().antMatchers("/", "index", "/css/*", "/js/*").permitAll()
+				.antMatchers("/api/**").hasAnyRole(STUDENT.name()).anyRequest().authenticated().and().formLogin()
+				.loginPage("/login").permitAll().defaultSuccessUrl("/courses", true);
 
 	}
 
