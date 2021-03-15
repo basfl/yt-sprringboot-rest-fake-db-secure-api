@@ -326,3 +326,765 @@ Caused by: java.lang.Error: Unresolved compilation problem:
 [2021-03-12T10:26:41.041Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8080-exec-2] [547] [INFO ] Completed initialization in 0 ms
 [2021-03-12T21:51:47.047Z] [org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin] [RMI TCP Connection(2)-127.0.0.1] [159] [INFO ] Application shutdown requested.
 [2021-03-12T21:51:47.047Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [RMI TCP Connection(2)-127.0.0.1] [218] [INFO ] Shutting down ExecutorService 'applicationTaskExecutor'
+[2021-03-14T20:35:42.042Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [55] [INFO ] Starting ApiSecurityDemoAppApplication using Java 1.8.0_181 on DESKTOP-5L3O9NV with PID 17500 (C:\Users\jupit\ide\spring-security-reference\api-security-demo-app\target\classes started by babak in C:\Users\jupit\ide\spring-security-reference\api-security-demo-app)
+[2021-03-14T20:35:42.042Z] [org.springframework.boot.SpringApplication] [restartedMain] [660] [INFO ] No active profile set, falling back to default profiles: default
+[2021-03-14T20:35:42.042Z] [org.springframework.boot.logging.DeferredLog] [restartedMain] [255] [INFO ] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2021-03-14T20:35:42.042Z] [org.springframework.boot.logging.DeferredLog] [restartedMain] [255] [INFO ] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2021-03-14T20:35:44.044Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [108] [INFO ] Tomcat initialized with port(s): 8080 (http)
+[2021-03-14T20:35:44.044Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing ProtocolHandler ["http-nio-8080"]
+[2021-03-14T20:35:44.044Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting service [Tomcat]
+[2021-03-14T20:35:44.044Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.43]
+[2021-03-14T20:35:44.044Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2021-03-14T20:35:44.044Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [restartedMain] [289] [INFO ] Root WebApplicationContext: initialization completed in 2532 ms
+[2021-03-14T20:35:46.046Z] [org.springframework.security.web.DefaultSecurityFilterChain] [restartedMain] [51] [INFO ] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@112932fc, org.springframework.security.web.context.SecurityContextPersistenceFilter@7d6185f9, org.springframework.security.web.header.HeaderWriterFilter@6f6cf459, org.springframework.security.web.csrf.CsrfFilter@7317297c, org.springframework.security.web.authentication.logout.LogoutFilter@34e904d8, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@7e217d57, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@513aba38, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@505bcae3, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2f5f60e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3abb77b8, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4c996242, org.springframework.security.web.session.SessionManagementFilter@5396797f, org.springframework.security.web.access.ExceptionTranslationFilter@4fde1e60, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4c1be798]
+[2021-03-14T20:35:46.046Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [restartedMain] [181] [INFO ] Initializing ExecutorService 'applicationTaskExecutor'
+[2021-03-14T20:35:46.046Z] [org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping] [restartedMain] [53] [INFO ] Adding welcome page: class path resource [static/index.html]
+[2021-03-14T20:35:46.046Z] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [restartedMain] [58] [INFO ] LiveReload server is running on port 35729
+[2021-03-14T20:35:47.047Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting ProtocolHandler ["http-nio-8080"]
+[2021-03-14T20:35:47.047Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [220] [INFO ] Tomcat started on port(s): 8080 (http) with context path ''
+[2021-03-14T20:35:47.047Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [61] [INFO ] Started ApiSecurityDemoAppApplication in 5.895 seconds (JVM running for 7.721)
+[2021-03-14T20:36:22.022Z] [org.apache.juli.logging.DirectJDKLog] [http-nio-8080-exec-1] [173] [INFO ] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2021-03-14T20:36:22.022Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8080-exec-1] [525] [INFO ] Initializing Servlet 'dispatcherServlet'
+[2021-03-14T20:36:22.022Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8080-exec-1] [547] [INFO ] Completed initialization in 2 ms
+[2021-03-14T20:36:34.034Z] [com.api.controller.StudentController] [http-nio-8080-exec-6] [27] [INFO ] getStudent******
+[2021-03-14T20:37:06.006Z] [com.api.controller.StudentController] [http-nio-8080-exec-8] [27] [INFO ] getStudent******
+[2021-03-14T20:43:55.055Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [Thread-6] [218] [INFO ] Shutting down ExecutorService 'applicationTaskExecutor'
+[2021-03-14T20:43:55.055Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [55] [INFO ] Starting ApiSecurityDemoAppApplication using Java 1.8.0_181 on DESKTOP-5L3O9NV with PID 17500 (C:\Users\jupit\ide\spring-security-reference\api-security-demo-app\target\classes started by babak in C:\Users\jupit\ide\spring-security-reference\api-security-demo-app)
+[2021-03-14T20:43:55.055Z] [org.springframework.boot.SpringApplication] [restartedMain] [660] [INFO ] No active profile set, falling back to default profiles: default
+[2021-03-14T20:43:55.055Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [108] [INFO ] Tomcat initialized with port(s): 8080 (http)
+[2021-03-14T20:43:55.055Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing ProtocolHandler ["http-nio-8080"]
+[2021-03-14T20:43:55.055Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting service [Tomcat]
+[2021-03-14T20:43:55.055Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.43]
+[2021-03-14T20:43:55.055Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2021-03-14T20:43:55.055Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [restartedMain] [289] [INFO ] Root WebApplicationContext: initialization completed in 349 ms
+[2021-03-14T20:43:56.056Z] [org.springframework.security.web.DefaultSecurityFilterChain] [restartedMain] [51] [INFO ] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2d691fa3, org.springframework.security.web.context.SecurityContextPersistenceFilter@ea2a8b2, org.springframework.security.web.header.HeaderWriterFilter@481e16c1, org.springframework.security.web.csrf.CsrfFilter@1f132657, org.springframework.security.web.authentication.logout.LogoutFilter@7bdf39fa, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@738abcad, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7825230c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@40359ad7, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6d4b21fe, org.springframework.security.web.session.SessionManagementFilter@805167b, org.springframework.security.web.access.ExceptionTranslationFilter@196de381, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@17f5a585]
+[2021-03-14T20:43:56.056Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [restartedMain] [181] [INFO ] Initializing ExecutorService 'applicationTaskExecutor'
+[2021-03-14T20:43:56.056Z] [org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping] [restartedMain] [53] [INFO ] Adding welcome page: class path resource [static/index.html]
+[2021-03-14T20:43:56.056Z] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [restartedMain] [58] [INFO ] LiveReload server is running on port 35729
+[2021-03-14T20:43:56.056Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting ProtocolHandler ["http-nio-8080"]
+[2021-03-14T20:43:56.056Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [220] [INFO ] Tomcat started on port(s): 8080 (http) with context path ''
+[2021-03-14T20:43:56.056Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [61] [INFO ] Started ApiSecurityDemoAppApplication in 1.143 seconds (JVM running for 497.174)
+[2021-03-14T20:43:56.056Z] [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] [restartedMain] [63] [INFO ] Condition evaluation unchanged
+[2021-03-14T20:45:17.017Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [Thread-9] [218] [INFO ] Shutting down ExecutorService 'applicationTaskExecutor'
+[2021-03-14T20:45:20.020Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [55] [INFO ] Starting ApiSecurityDemoAppApplication using Java 1.8.0_181 on DESKTOP-5L3O9NV with PID 17500 (C:\Users\jupit\ide\spring-security-reference\api-security-demo-app\target\classes started by babak in C:\Users\jupit\ide\spring-security-reference\api-security-demo-app)
+[2021-03-14T20:45:20.020Z] [org.springframework.boot.SpringApplication] [restartedMain] [660] [INFO ] No active profile set, falling back to default profiles: default
+[2021-03-14T20:45:21.021Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [108] [INFO ] Tomcat initialized with port(s): 8080 (http)
+[2021-03-14T20:45:21.021Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting service [Tomcat]
+[2021-03-14T20:45:21.021Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.43]
+[2021-03-14T20:45:21.021Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2021-03-14T20:45:21.021Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [restartedMain] [289] [INFO ] Root WebApplicationContext: initialization completed in 220 ms
+[2021-03-14T20:45:21.021Z] [org.springframework.security.web.DefaultSecurityFilterChain] [restartedMain] [51] [INFO ] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@338c335, org.springframework.security.web.context.SecurityContextPersistenceFilter@4dfe975f, org.springframework.security.web.header.HeaderWriterFilter@59021759, org.springframework.security.web.csrf.CsrfFilter@23c4d50b, org.springframework.security.web.authentication.logout.LogoutFilter@4d0dfcc3, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@728c82bc, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4e1b79b9, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7ea07fc, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@49db13e1, org.springframework.security.web.session.SessionManagementFilter@48176fdb, org.springframework.security.web.access.ExceptionTranslationFilter@416841d8, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@69e45251]
+[2021-03-14T20:45:21.021Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [restartedMain] [181] [INFO ] Initializing ExecutorService 'applicationTaskExecutor'
+[2021-03-14T20:45:21.021Z] [org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping] [restartedMain] [53] [INFO ] Adding welcome page: class path resource [static/index.html]
+[2021-03-14T20:45:21.021Z] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [restartedMain] [58] [INFO ] LiveReload server is running on port 35729
+[2021-03-14T20:45:21.021Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [220] [INFO ] Tomcat started on port(s): 8080 (http) with context path ''
+[2021-03-14T20:45:21.021Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [61] [INFO ] Started ApiSecurityDemoAppApplication in 0.635 seconds (JVM running for 582.103)
+[2021-03-14T20:45:21.021Z] [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] [restartedMain] [63] [INFO ] Condition evaluation unchanged
+[2021-03-14T20:45:28.028Z] [org.apache.juli.logging.DirectJDKLog] [http-nio-8080-exec-1] [173] [INFO ] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2021-03-14T20:45:28.028Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8080-exec-1] [525] [INFO ] Initializing Servlet 'dispatcherServlet'
+[2021-03-14T20:45:28.028Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8080-exec-1] [547] [INFO ] Completed initialization in 2 ms
+[2021-03-14T20:45:28.028Z] [com.api.controller.StudentController] [http-nio-8080-exec-1] [27] [INFO ] getStudent******
+[2021-03-14T20:45:30.030Z] [com.api.controller.StudentController] [http-nio-8080-exec-2] [27] [INFO ] getStudent******
+[2021-03-14T20:46:09.009Z] [org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin] [RMI TCP Connection(2)-127.0.0.1] [159] [INFO ] Application shutdown requested.
+[2021-03-14T20:46:10.010Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [RMI TCP Connection(2)-127.0.0.1] [218] [INFO ] Shutting down ExecutorService 'applicationTaskExecutor'
+[2021-03-14T20:46:16.016Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [55] [INFO ] Starting ApiSecurityDemoAppApplication using Java 1.8.0_181 on DESKTOP-5L3O9NV with PID 568 (C:\Users\jupit\ide\spring-security-reference\api-security-demo-app\target\classes started by babak in C:\Users\jupit\ide\spring-security-reference\api-security-demo-app)
+[2021-03-14T20:46:16.016Z] [org.springframework.boot.SpringApplication] [restartedMain] [660] [INFO ] No active profile set, falling back to default profiles: default
+[2021-03-14T20:46:17.017Z] [org.springframework.boot.logging.DeferredLog] [restartedMain] [255] [INFO ] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2021-03-14T20:46:17.017Z] [org.springframework.boot.logging.DeferredLog] [restartedMain] [255] [INFO ] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2021-03-14T20:46:18.018Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [108] [INFO ] Tomcat initialized with port(s): 8080 (http)
+[2021-03-14T20:46:18.018Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing ProtocolHandler ["http-nio-8080"]
+[2021-03-14T20:46:18.018Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting service [Tomcat]
+[2021-03-14T20:46:18.018Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.43]
+[2021-03-14T20:46:18.018Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2021-03-14T20:46:18.018Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [restartedMain] [289] [INFO ] Root WebApplicationContext: initialization completed in 1514 ms
+[2021-03-14T20:46:19.019Z] [org.springframework.security.web.DefaultSecurityFilterChain] [restartedMain] [51] [INFO ] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4b72313b, org.springframework.security.web.context.SecurityContextPersistenceFilter@5583ac31, org.springframework.security.web.header.HeaderWriterFilter@4a1d4460, org.springframework.security.web.csrf.CsrfFilter@7b9ac970, org.springframework.security.web.authentication.logout.LogoutFilter@133f113e, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@265058b2, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7425e719, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@18b52b69, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@f8a2394, org.springframework.security.web.session.SessionManagementFilter@72ccadba, org.springframework.security.web.access.ExceptionTranslationFilter@11f2fa1d, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@69902848]
+[2021-03-14T20:46:19.019Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [restartedMain] [181] [INFO ] Initializing ExecutorService 'applicationTaskExecutor'
+[2021-03-14T20:46:19.019Z] [org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping] [restartedMain] [53] [INFO ] Adding welcome page: class path resource [static/index.html]
+[2021-03-14T20:46:19.019Z] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [restartedMain] [58] [INFO ] LiveReload server is running on port 35729
+[2021-03-14T20:46:19.019Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting ProtocolHandler ["http-nio-8080"]
+[2021-03-14T20:46:19.019Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [220] [INFO ] Tomcat started on port(s): 8080 (http) with context path ''
+[2021-03-14T20:46:19.019Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [61] [INFO ] Started ApiSecurityDemoAppApplication in 3.248 seconds (JVM running for 4.88)
+[2021-03-14T20:46:23.023Z] [org.apache.juli.logging.DirectJDKLog] [http-nio-8080-exec-1] [173] [INFO ] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2021-03-14T20:46:23.023Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8080-exec-1] [525] [INFO ] Initializing Servlet 'dispatcherServlet'
+[2021-03-14T20:46:23.023Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8080-exec-1] [547] [INFO ] Completed initialization in 1 ms
+[2021-03-14T20:49:23.023Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [Thread-6] [218] [INFO ] Shutting down ExecutorService 'applicationTaskExecutor'
+[2021-03-14T20:49:23.023Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [55] [INFO ] Starting ApiSecurityDemoAppApplication using Java 1.8.0_181 on DESKTOP-5L3O9NV with PID 568 (C:\Users\jupit\ide\spring-security-reference\api-security-demo-app\target\classes started by babak in C:\Users\jupit\ide\spring-security-reference\api-security-demo-app)
+[2021-03-14T20:49:23.023Z] [org.springframework.boot.SpringApplication] [restartedMain] [660] [INFO ] No active profile set, falling back to default profiles: default
+[2021-03-14T20:49:23.023Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [108] [INFO ] Tomcat initialized with port(s): 8080 (http)
+[2021-03-14T20:49:23.023Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing ProtocolHandler ["http-nio-8080"]
+[2021-03-14T20:49:23.023Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting service [Tomcat]
+[2021-03-14T20:49:23.023Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.43]
+[2021-03-14T20:49:23.023Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2021-03-14T20:49:23.023Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [restartedMain] [289] [INFO ] Root WebApplicationContext: initialization completed in 316 ms
+[2021-03-14T20:49:24.024Z] [org.springframework.security.web.DefaultSecurityFilterChain] [restartedMain] [51] [INFO ] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4c3e925, org.springframework.security.web.context.SecurityContextPersistenceFilter@6e6127f7, org.springframework.security.web.header.HeaderWriterFilter@176f793f, org.springframework.security.web.csrf.CsrfFilter@38b5bced, org.springframework.security.web.authentication.logout.LogoutFilter@7759b0c6, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@441fd458, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3237f441, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5e7dd5b9, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2e4d86d3, org.springframework.security.web.session.SessionManagementFilter@7ba6aeba, org.springframework.security.web.access.ExceptionTranslationFilter@12bb43e, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4d930df6]
+[2021-03-14T20:49:24.024Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [restartedMain] [181] [INFO ] Initializing ExecutorService 'applicationTaskExecutor'
+[2021-03-14T20:49:24.024Z] [org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping] [restartedMain] [53] [INFO ] Adding welcome page: class path resource [static/index.html]
+[2021-03-14T20:49:24.024Z] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [restartedMain] [58] [INFO ] LiveReload server is running on port 35729
+[2021-03-14T20:49:24.024Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting ProtocolHandler ["http-nio-8080"]
+[2021-03-14T20:49:24.024Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [220] [INFO ] Tomcat started on port(s): 8080 (http) with context path ''
+[2021-03-14T20:49:24.024Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [61] [INFO ] Started ApiSecurityDemoAppApplication in 0.887 seconds (JVM running for 189.761)
+[2021-03-14T20:49:24.024Z] [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] [restartedMain] [63] [INFO ] Condition evaluation unchanged
+[2021-03-14T20:50:13.013Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [Thread-9] [218] [INFO ] Shutting down ExecutorService 'applicationTaskExecutor'
+[2021-03-14T20:50:13.013Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [55] [INFO ] Starting ApiSecurityDemoAppApplication using Java 1.8.0_181 on DESKTOP-5L3O9NV with PID 568 (C:\Users\jupit\ide\spring-security-reference\api-security-demo-app\target\classes started by babak in C:\Users\jupit\ide\spring-security-reference\api-security-demo-app)
+[2021-03-14T20:50:13.013Z] [org.springframework.boot.SpringApplication] [restartedMain] [660] [INFO ] No active profile set, falling back to default profiles: default
+[2021-03-14T20:50:13.013Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [108] [INFO ] Tomcat initialized with port(s): 8080 (http)
+[2021-03-14T20:50:13.013Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing ProtocolHandler ["http-nio-8080"]
+[2021-03-14T20:50:13.013Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting service [Tomcat]
+[2021-03-14T20:50:13.013Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.43]
+[2021-03-14T20:50:13.013Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2021-03-14T20:50:13.013Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [restartedMain] [289] [INFO ] Root WebApplicationContext: initialization completed in 274 ms
+[2021-03-14T20:50:14.014Z] [org.springframework.security.web.DefaultSecurityFilterChain] [restartedMain] [51] [INFO ] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@19f96235, org.springframework.security.web.context.SecurityContextPersistenceFilter@4eb8912d, org.springframework.security.web.header.HeaderWriterFilter@1a49ac20, org.springframework.security.web.csrf.CsrfFilter@17863610, org.springframework.security.web.authentication.logout.LogoutFilter@683c8d00, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@47566da0, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1d1c6705, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4ae3e02a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@d12e77, org.springframework.security.web.session.SessionManagementFilter@68281c8e, org.springframework.security.web.access.ExceptionTranslationFilter@7674a067, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3b3d87c1]
+[2021-03-14T20:50:14.014Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [restartedMain] [181] [INFO ] Initializing ExecutorService 'applicationTaskExecutor'
+[2021-03-14T20:50:14.014Z] [org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping] [restartedMain] [53] [INFO ] Adding welcome page: class path resource [static/index.html]
+[2021-03-14T20:50:14.014Z] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [restartedMain] [58] [INFO ] LiveReload server is running on port 35729
+[2021-03-14T20:50:14.014Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting ProtocolHandler ["http-nio-8080"]
+[2021-03-14T20:50:14.014Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [220] [INFO ] Tomcat started on port(s): 8080 (http) with context path ''
+[2021-03-14T20:50:14.014Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [61] [INFO ] Started ApiSecurityDemoAppApplication in 0.748 seconds (JVM running for 239.56)
+[2021-03-14T20:50:14.014Z] [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] [restartedMain] [63] [INFO ] Condition evaluation unchanged
+[2021-03-14T20:50:22.022Z] [org.apache.juli.logging.DirectJDKLog] [http-nio-8080-exec-1] [173] [INFO ] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2021-03-14T20:50:22.022Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8080-exec-1] [525] [INFO ] Initializing Servlet 'dispatcherServlet'
+[2021-03-14T20:50:22.022Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8080-exec-1] [547] [INFO ] Completed initialization in 2 ms
+[2021-03-14T20:50:27.027Z] [org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin] [RMI TCP Connection(2)-127.0.0.1] [159] [INFO ] Application shutdown requested.
+[2021-03-14T20:50:27.027Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [RMI TCP Connection(2)-127.0.0.1] [218] [INFO ] Shutting down ExecutorService 'applicationTaskExecutor'
+[2021-03-14T20:50:34.034Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [55] [INFO ] Starting ApiSecurityDemoAppApplication using Java 1.8.0_181 on DESKTOP-5L3O9NV with PID 5164 (C:\Users\jupit\ide\spring-security-reference\api-security-demo-app\target\classes started by babak in C:\Users\jupit\ide\spring-security-reference\api-security-demo-app)
+[2021-03-14T20:50:34.034Z] [org.springframework.boot.SpringApplication] [restartedMain] [660] [INFO ] No active profile set, falling back to default profiles: default
+[2021-03-14T20:50:34.034Z] [org.springframework.boot.logging.DeferredLog] [restartedMain] [255] [INFO ] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2021-03-14T20:50:34.034Z] [org.springframework.boot.logging.DeferredLog] [restartedMain] [255] [INFO ] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2021-03-14T20:50:35.035Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [108] [INFO ] Tomcat initialized with port(s): 8080 (http)
+[2021-03-14T20:50:35.035Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing ProtocolHandler ["http-nio-8080"]
+[2021-03-14T20:50:35.035Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting service [Tomcat]
+[2021-03-14T20:50:35.035Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.43]
+[2021-03-14T20:50:36.036Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2021-03-14T20:50:36.036Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [restartedMain] [289] [INFO ] Root WebApplicationContext: initialization completed in 1513 ms
+[2021-03-14T20:50:36.036Z] [org.springframework.security.web.DefaultSecurityFilterChain] [restartedMain] [51] [INFO ] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@fc9dfcf, org.springframework.security.web.context.SecurityContextPersistenceFilter@4a6a0be0, org.springframework.security.web.header.HeaderWriterFilter@1f8fc35, org.springframework.security.web.csrf.CsrfFilter@2caf268, org.springframework.security.web.authentication.logout.LogoutFilter@591f322a, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@2a951abf, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@55f52637, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@21e9af4c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6682888a, org.springframework.security.web.session.SessionManagementFilter@2da08529, org.springframework.security.web.access.ExceptionTranslationFilter@30b93a73, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2b5a6cab]
+[2021-03-14T20:50:37.037Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [restartedMain] [181] [INFO ] Initializing ExecutorService 'applicationTaskExecutor'
+[2021-03-14T20:50:37.037Z] [org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping] [restartedMain] [53] [INFO ] Adding welcome page: class path resource [static/index.html]
+[2021-03-14T20:50:37.037Z] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [restartedMain] [58] [INFO ] LiveReload server is running on port 35729
+[2021-03-14T20:50:37.037Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting ProtocolHandler ["http-nio-8080"]
+[2021-03-14T20:50:37.037Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [220] [INFO ] Tomcat started on port(s): 8080 (http) with context path ''
+[2021-03-14T20:50:37.037Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [61] [INFO ] Started ApiSecurityDemoAppApplication in 3.598 seconds (JVM running for 5.44)
+[2021-03-14T20:52:21.021Z] [org.apache.juli.logging.DirectJDKLog] [http-nio-8080-exec-1] [173] [INFO ] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2021-03-14T20:52:21.021Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8080-exec-1] [525] [INFO ] Initializing Servlet 'dispatcherServlet'
+[2021-03-14T20:52:21.021Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8080-exec-1] [547] [INFO ] Completed initialization in 2 ms
+[2021-03-14T20:53:50.050Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [Thread-6] [218] [INFO ] Shutting down ExecutorService 'applicationTaskExecutor'
+[2021-03-14T20:53:50.050Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [55] [INFO ] Starting ApiSecurityDemoAppApplication using Java 1.8.0_181 on DESKTOP-5L3O9NV with PID 5164 (C:\Users\jupit\ide\spring-security-reference\api-security-demo-app\target\classes started by babak in C:\Users\jupit\ide\spring-security-reference\api-security-demo-app)
+[2021-03-14T20:53:50.050Z] [org.springframework.boot.SpringApplication] [restartedMain] [660] [INFO ] No active profile set, falling back to default profiles: default
+[2021-03-14T20:53:51.051Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [108] [INFO ] Tomcat initialized with port(s): 8080 (http)
+[2021-03-14T20:53:51.051Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing ProtocolHandler ["http-nio-8080"]
+[2021-03-14T20:53:51.051Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting service [Tomcat]
+[2021-03-14T20:53:51.051Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.43]
+[2021-03-14T20:53:51.051Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2021-03-14T20:53:51.051Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [restartedMain] [289] [INFO ] Root WebApplicationContext: initialization completed in 506 ms
+[2021-03-14T20:53:52.052Z] [org.springframework.security.web.DefaultSecurityFilterChain] [restartedMain] [51] [INFO ] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@624ad335, org.springframework.security.web.context.SecurityContextPersistenceFilter@61815d73, org.springframework.security.web.header.HeaderWriterFilter@227febb9, org.springframework.security.web.csrf.CsrfFilter@72295240, org.springframework.security.web.authentication.logout.LogoutFilter@693bef07, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@51d0c9c4, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@13f10535, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4e8e06d1, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@b3c4451, org.springframework.security.web.session.SessionManagementFilter@5902bf41, org.springframework.security.web.access.ExceptionTranslationFilter@68b35620, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@886eb6d]
+[2021-03-14T20:53:52.052Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [restartedMain] [181] [INFO ] Initializing ExecutorService 'applicationTaskExecutor'
+[2021-03-14T20:53:52.052Z] [org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping] [restartedMain] [53] [INFO ] Adding welcome page: class path resource [static/index.html]
+[2021-03-14T20:53:52.052Z] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [restartedMain] [58] [INFO ] LiveReload server is running on port 35729
+[2021-03-14T20:53:52.052Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting ProtocolHandler ["http-nio-8080"]
+[2021-03-14T20:53:52.052Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [220] [INFO ] Tomcat started on port(s): 8080 (http) with context path ''
+[2021-03-14T20:53:52.052Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [61] [INFO ] Started ApiSecurityDemoAppApplication in 1.622 seconds (JVM running for 200.206)
+[2021-03-14T20:53:52.052Z] [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] [restartedMain] [63] [INFO ] Condition evaluation unchanged
+[2021-03-14T20:54:45.045Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [Thread-9] [218] [INFO ] Shutting down ExecutorService 'applicationTaskExecutor'
+[2021-03-14T20:54:45.045Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [55] [INFO ] Starting ApiSecurityDemoAppApplication using Java 1.8.0_181 on DESKTOP-5L3O9NV with PID 5164 (C:\Users\jupit\ide\spring-security-reference\api-security-demo-app\target\classes started by babak in C:\Users\jupit\ide\spring-security-reference\api-security-demo-app)
+[2021-03-14T20:54:45.045Z] [org.springframework.boot.SpringApplication] [restartedMain] [660] [INFO ] No active profile set, falling back to default profiles: default
+[2021-03-14T20:54:46.046Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [108] [INFO ] Tomcat initialized with port(s): 8080 (http)
+[2021-03-14T20:54:46.046Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing ProtocolHandler ["http-nio-8080"]
+[2021-03-14T20:54:46.046Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting service [Tomcat]
+[2021-03-14T20:54:46.046Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.43]
+[2021-03-14T20:54:46.046Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2021-03-14T20:54:46.046Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [restartedMain] [289] [INFO ] Root WebApplicationContext: initialization completed in 471 ms
+[2021-03-14T20:54:46.046Z] [org.springframework.security.web.DefaultSecurityFilterChain] [restartedMain] [51] [INFO ] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6e550fe1, org.springframework.security.web.context.SecurityContextPersistenceFilter@2d7a13cc, org.springframework.security.web.header.HeaderWriterFilter@2c4bf152, org.springframework.security.web.csrf.CsrfFilter@2fb2af21, org.springframework.security.web.authentication.logout.LogoutFilter@3d232fc9, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@67c9bfd0, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7f22cdba, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@c10726d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5d8f26b6, org.springframework.security.web.session.SessionManagementFilter@170b7dab, org.springframework.security.web.access.ExceptionTranslationFilter@42020118, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@759a2572]
+[2021-03-14T20:54:46.046Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [restartedMain] [181] [INFO ] Initializing ExecutorService 'applicationTaskExecutor'
+[2021-03-14T20:54:46.046Z] [org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping] [restartedMain] [53] [INFO ] Adding welcome page: class path resource [static/index.html]
+[2021-03-14T20:54:46.046Z] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [restartedMain] [58] [INFO ] LiveReload server is running on port 35729
+[2021-03-14T20:54:46.046Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting ProtocolHandler ["http-nio-8080"]
+[2021-03-14T20:54:46.046Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [220] [INFO ] Tomcat started on port(s): 8080 (http) with context path ''
+[2021-03-14T20:54:46.046Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [61] [INFO ] Started ApiSecurityDemoAppApplication in 1.153 seconds (JVM running for 254.583)
+[2021-03-14T20:54:46.046Z] [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] [restartedMain] [63] [INFO ] Condition evaluation unchanged
+[2021-03-14T20:55:06.006Z] [org.apache.juli.logging.DirectJDKLog] [http-nio-8080-exec-2] [173] [INFO ] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2021-03-14T20:55:06.006Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8080-exec-2] [525] [INFO ] Initializing Servlet 'dispatcherServlet'
+[2021-03-14T20:55:06.006Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8080-exec-2] [547] [INFO ] Completed initialization in 4 ms
+[2021-03-14T20:56:53.053Z] [org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin] [RMI TCP Connection(2)-127.0.0.1] [159] [INFO ] Application shutdown requested.
+[2021-03-14T20:56:54.054Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [RMI TCP Connection(2)-127.0.0.1] [218] [INFO ] Shutting down ExecutorService 'applicationTaskExecutor'
+[2021-03-14T20:57:01.001Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [55] [INFO ] Starting ApiSecurityDemoAppApplication using Java 1.8.0_181 on DESKTOP-5L3O9NV with PID 16848 (C:\Users\jupit\ide\spring-security-reference\api-security-demo-app\target\classes started by babak in C:\Users\jupit\ide\spring-security-reference\api-security-demo-app)
+[2021-03-14T20:57:01.001Z] [org.springframework.boot.SpringApplication] [restartedMain] [660] [INFO ] No active profile set, falling back to default profiles: default
+[2021-03-14T20:57:01.001Z] [org.springframework.boot.logging.DeferredLog] [restartedMain] [255] [INFO ] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2021-03-14T20:57:01.001Z] [org.springframework.boot.logging.DeferredLog] [restartedMain] [255] [INFO ] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2021-03-14T20:57:03.003Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [108] [INFO ] Tomcat initialized with port(s): 8080 (http)
+[2021-03-14T20:57:03.003Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing ProtocolHandler ["http-nio-8080"]
+[2021-03-14T20:57:03.003Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting service [Tomcat]
+[2021-03-14T20:57:03.003Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.43]
+[2021-03-14T20:57:03.003Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2021-03-14T20:57:03.003Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [restartedMain] [289] [INFO ] Root WebApplicationContext: initialization completed in 1707 ms
+[2021-03-14T20:57:04.004Z] [org.springframework.security.web.DefaultSecurityFilterChain] [restartedMain] [51] [INFO ] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@35cdc0a8, org.springframework.security.web.context.SecurityContextPersistenceFilter@405edc97, org.springframework.security.web.header.HeaderWriterFilter@3eca05f6, org.springframework.security.web.csrf.CsrfFilter@7c557d59, org.springframework.security.web.authentication.logout.LogoutFilter@117e8373, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@3f7c08a4, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@516d922a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@69902848, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6373d226, org.springframework.security.web.session.SessionManagementFilter@4f7fca6a, org.springframework.security.web.access.ExceptionTranslationFilter@40902b07, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7ce3cbd2]
+[2021-03-14T20:57:04.004Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [restartedMain] [181] [INFO ] Initializing ExecutorService 'applicationTaskExecutor'
+[2021-03-14T20:57:04.004Z] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [restartedMain] [58] [INFO ] LiveReload server is running on port 35729
+[2021-03-14T20:57:04.004Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting ProtocolHandler ["http-nio-8080"]
+[2021-03-14T20:57:04.004Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [220] [INFO ] Tomcat started on port(s): 8080 (http) with context path ''
+[2021-03-14T20:57:04.004Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [61] [INFO ] Started ApiSecurityDemoAppApplication in 3.927 seconds (JVM running for 6.541)
+[2021-03-14T20:57:22.022Z] [org.apache.juli.logging.DirectJDKLog] [http-nio-8080-exec-1] [173] [INFO ] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2021-03-14T20:57:22.022Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8080-exec-1] [525] [INFO ] Initializing Servlet 'dispatcherServlet'
+[2021-03-14T20:57:22.022Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8080-exec-1] [547] [INFO ] Completed initialization in 1 ms
+[2021-03-14T20:57:23.023Z] [org.thymeleaf.TemplateEngine] [http-nio-8080-exec-1] [1136] [ERROR] [THYMELEAF][http-nio-8080-exec-1] Exception processing template "login": Error resolving template [login], template might not exist or might not be accessible by any of the configured Template Resolvers
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [login], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:366)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:190)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1393)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1138)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1077)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:962)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:327)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:115)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:119)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:113)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:126)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:149)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:218)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:212)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.csrf.CsrfFilter.doFilterInternal(CsrfFilter.java:117)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:110)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:80)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:211)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:183)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:887)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1684)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+[2021-03-14T20:57:23.023Z] [org.apache.juli.logging.DirectJDKLog] [http-nio-8080-exec-1] [175] [ERROR] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: Error resolving template [login], template might not exist or might not be accessible by any of the configured Template Resolvers] with root cause
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [login], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:366)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:190)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1393)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1138)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1077)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:962)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:327)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:115)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:119)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:113)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:126)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:149)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:218)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:212)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.csrf.CsrfFilter.doFilterInternal(CsrfFilter.java:117)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:110)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:80)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:211)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:183)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:887)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1684)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+[2021-03-14T21:03:00.000Z] [org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin] [RMI TCP Connection(2)-127.0.0.1] [159] [INFO ] Application shutdown requested.
+[2021-03-14T21:03:00.000Z] [org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin] [RMI TCP Connection(3)-127.0.0.1] [159] [INFO ] Application shutdown requested.
+[2021-03-14T21:03:00.000Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [RMI TCP Connection(2)-127.0.0.1] [218] [INFO ] Shutting down ExecutorService 'applicationTaskExecutor'
+[2021-03-14T21:03:59.059Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [55] [INFO ] Starting ApiSecurityDemoAppApplication using Java 1.8.0_181 on DESKTOP-5L3O9NV with PID 10656 (C:\Users\jupit\ide\spring-security-reference\api-security-demo-app\target\classes started by babak in C:\Users\jupit\ide\spring-security-reference\api-security-demo-app)
+[2021-03-14T21:03:59.059Z] [org.springframework.boot.SpringApplication] [restartedMain] [660] [INFO ] No active profile set, falling back to default profiles: default
+[2021-03-14T21:03:59.059Z] [org.springframework.boot.logging.DeferredLog] [restartedMain] [255] [INFO ] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2021-03-14T21:03:59.059Z] [org.springframework.boot.logging.DeferredLog] [restartedMain] [255] [INFO ] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2021-03-14T21:04:00.000Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [108] [INFO ] Tomcat initialized with port(s): 8080 (http)
+[2021-03-14T21:04:00.000Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing ProtocolHandler ["http-nio-8080"]
+[2021-03-14T21:04:00.000Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting service [Tomcat]
+[2021-03-14T21:04:00.000Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.43]
+[2021-03-14T21:04:00.000Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2021-03-14T21:04:00.000Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [restartedMain] [289] [INFO ] Root WebApplicationContext: initialization completed in 1006 ms
+[2021-03-14T21:04:01.001Z] [org.springframework.security.web.DefaultSecurityFilterChain] [restartedMain] [51] [INFO ] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@35cdc0a8, org.springframework.security.web.context.SecurityContextPersistenceFilter@405edc97, org.springframework.security.web.header.HeaderWriterFilter@3eca05f6, org.springframework.security.web.csrf.CsrfFilter@7c557d59, org.springframework.security.web.authentication.logout.LogoutFilter@117e8373, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@3f7c08a4, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@516d922a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@69902848, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6373d226, org.springframework.security.web.session.SessionManagementFilter@4f7fca6a, org.springframework.security.web.access.ExceptionTranslationFilter@40902b07, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7ce3cbd2]
+[2021-03-14T21:04:01.001Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [restartedMain] [181] [INFO ] Initializing ExecutorService 'applicationTaskExecutor'
+[2021-03-14T21:04:01.001Z] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [restartedMain] [58] [INFO ] LiveReload server is running on port 35729
+[2021-03-14T21:04:01.001Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting ProtocolHandler ["http-nio-8080"]
+[2021-03-14T21:04:01.001Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [220] [INFO ] Tomcat started on port(s): 8080 (http) with context path ''
+[2021-03-14T21:04:01.001Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [61] [INFO ] Started ApiSecurityDemoAppApplication in 2.387 seconds (JVM running for 3.669)
+[2021-03-14T21:04:08.008Z] [org.apache.juli.logging.DirectJDKLog] [http-nio-8080-exec-1] [173] [INFO ] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2021-03-14T21:04:08.008Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8080-exec-1] [525] [INFO ] Initializing Servlet 'dispatcherServlet'
+[2021-03-14T21:04:08.008Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8080-exec-1] [547] [INFO ] Completed initialization in 1 ms
+[2021-03-14T22:18:54.054Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [Thread-6] [218] [INFO ] Shutting down ExecutorService 'applicationTaskExecutor'
+[2021-03-14T22:18:54.054Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [55] [INFO ] Starting ApiSecurityDemoAppApplication using Java 1.8.0_181 on DESKTOP-5L3O9NV with PID 10656 (C:\Users\jupit\ide\spring-security-reference\api-security-demo-app\target\classes started by babak in C:\Users\jupit\ide\spring-security-reference\api-security-demo-app)
+[2021-03-14T22:18:54.054Z] [org.springframework.boot.SpringApplication] [restartedMain] [660] [INFO ] No active profile set, falling back to default profiles: default
+[2021-03-14T22:18:55.055Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [108] [INFO ] Tomcat initialized with port(s): 8080 (http)
+[2021-03-14T22:18:55.055Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing ProtocolHandler ["http-nio-8080"]
+[2021-03-14T22:18:55.055Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting service [Tomcat]
+[2021-03-14T22:18:55.055Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.43]
+[2021-03-14T22:18:55.055Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2021-03-14T22:18:55.055Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [restartedMain] [289] [INFO ] Root WebApplicationContext: initialization completed in 282 ms
+[2021-03-14T22:18:55.055Z] [org.springframework.security.web.DefaultSecurityFilterChain] [restartedMain] [51] [INFO ] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@afac86b, org.springframework.security.web.context.SecurityContextPersistenceFilter@e6ee5fd, org.springframework.security.web.header.HeaderWriterFilter@275a44cf, org.springframework.security.web.csrf.CsrfFilter@57862d13, org.springframework.security.web.authentication.logout.LogoutFilter@5e1cb4f1, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@145907df, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@f8cd57b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7a858479, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4551fa9e, org.springframework.security.web.session.SessionManagementFilter@68e6a347, org.springframework.security.web.access.ExceptionTranslationFilter@3db78a89, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4ec5a75]
+[2021-03-14T22:18:55.055Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [restartedMain] [181] [INFO ] Initializing ExecutorService 'applicationTaskExecutor'
+[2021-03-14T22:18:55.055Z] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [restartedMain] [58] [INFO ] LiveReload server is running on port 35729
+[2021-03-14T22:18:55.055Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting ProtocolHandler ["http-nio-8080"]
+[2021-03-14T22:18:55.055Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [220] [INFO ] Tomcat started on port(s): 8080 (http) with context path ''
+[2021-03-14T22:18:55.055Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [61] [INFO ] Started ApiSecurityDemoAppApplication in 0.755 seconds (JVM running for 4498.553)
+[2021-03-14T22:18:55.055Z] [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] [restartedMain] [63] [INFO ] Condition evaluation unchanged
+[2021-03-14T22:19:00.000Z] [org.apache.juli.logging.DirectJDKLog] [http-nio-8080-exec-1] [173] [INFO ] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2021-03-14T22:19:00.000Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8080-exec-1] [525] [INFO ] Initializing Servlet 'dispatcherServlet'
+[2021-03-14T22:19:00.000Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8080-exec-1] [547] [INFO ] Completed initialization in 1 ms
+[2021-03-14T22:20:20.020Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [Thread-9] [218] [INFO ] Shutting down ExecutorService 'applicationTaskExecutor'
+[2021-03-14T22:20:20.020Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [55] [INFO ] Starting ApiSecurityDemoAppApplication using Java 1.8.0_181 on DESKTOP-5L3O9NV with PID 10656 (C:\Users\jupit\ide\spring-security-reference\api-security-demo-app\target\classes started by babak in C:\Users\jupit\ide\spring-security-reference\api-security-demo-app)
+[2021-03-14T22:20:20.020Z] [org.springframework.boot.SpringApplication] [restartedMain] [660] [INFO ] No active profile set, falling back to default profiles: default
+[2021-03-14T22:20:20.020Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [108] [INFO ] Tomcat initialized with port(s): 8080 (http)
+[2021-03-14T22:20:20.020Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing ProtocolHandler ["http-nio-8080"]
+[2021-03-14T22:20:20.020Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting service [Tomcat]
+[2021-03-14T22:20:20.020Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.43]
+[2021-03-14T22:20:20.020Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2021-03-14T22:20:20.020Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [restartedMain] [289] [INFO ] Root WebApplicationContext: initialization completed in 257 ms
+[2021-03-14T22:20:20.020Z] [org.springframework.security.web.DefaultSecurityFilterChain] [restartedMain] [51] [INFO ] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@388fd69d, org.springframework.security.web.context.SecurityContextPersistenceFilter@5922d1bb, org.springframework.security.web.header.HeaderWriterFilter@4d05e9d8, org.springframework.security.web.csrf.CsrfFilter@75f76194, org.springframework.security.web.authentication.logout.LogoutFilter@347e4c67, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@e1a68d5, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3140cd07, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5369a9de, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2da3a0ab, org.springframework.security.web.session.SessionManagementFilter@1797f91c, org.springframework.security.web.access.ExceptionTranslationFilter@79a22515, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4ceb4b48]
+[2021-03-14T22:20:20.020Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [restartedMain] [181] [INFO ] Initializing ExecutorService 'applicationTaskExecutor'
+[2021-03-14T22:20:21.021Z] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [restartedMain] [58] [INFO ] LiveReload server is running on port 35729
+[2021-03-14T22:20:21.021Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting ProtocolHandler ["http-nio-8080"]
+[2021-03-14T22:20:21.021Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [220] [INFO ] Tomcat started on port(s): 8080 (http) with context path ''
+[2021-03-14T22:20:21.021Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [61] [INFO ] Started ApiSecurityDemoAppApplication in 0.761 seconds (JVM running for 4584.125)
+[2021-03-14T22:20:21.021Z] [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] [restartedMain] [63] [INFO ] Condition evaluation unchanged
+[2021-03-14T22:20:23.023Z] [org.apache.juli.logging.DirectJDKLog] [http-nio-8080-exec-1] [173] [INFO ] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2021-03-14T22:20:23.023Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8080-exec-1] [525] [INFO ] Initializing Servlet 'dispatcherServlet'
+[2021-03-14T22:20:23.023Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8080-exec-1] [547] [INFO ] Completed initialization in 1 ms
+[2021-03-14T22:22:53.053Z] [org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin] [RMI TCP Connection(2)-127.0.0.1] [159] [INFO ] Application shutdown requested.
+[2021-03-14T22:22:53.053Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [RMI TCP Connection(2)-127.0.0.1] [218] [INFO ] Shutting down ExecutorService 'applicationTaskExecutor'
+[2021-03-14T22:23:00.000Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [55] [INFO ] Starting ApiSecurityDemoAppApplication using Java 1.8.0_181 on DESKTOP-5L3O9NV with PID 17300 (C:\Users\jupit\ide\spring-security-reference\api-security-demo-app\target\classes started by babak in C:\Users\jupit\ide\spring-security-reference\api-security-demo-app)
+[2021-03-14T22:23:00.000Z] [org.springframework.boot.SpringApplication] [restartedMain] [660] [INFO ] No active profile set, falling back to default profiles: default
+[2021-03-14T22:23:00.000Z] [org.springframework.boot.logging.DeferredLog] [restartedMain] [255] [INFO ] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2021-03-14T22:23:00.000Z] [org.springframework.boot.logging.DeferredLog] [restartedMain] [255] [INFO ] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2021-03-14T22:23:01.001Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [108] [INFO ] Tomcat initialized with port(s): 8080 (http)
+[2021-03-14T22:23:01.001Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing ProtocolHandler ["http-nio-8080"]
+[2021-03-14T22:23:01.001Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting service [Tomcat]
+[2021-03-14T22:23:01.001Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.43]
+[2021-03-14T22:23:01.001Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2021-03-14T22:23:01.001Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [restartedMain] [289] [INFO ] Root WebApplicationContext: initialization completed in 942 ms
+[2021-03-14T22:23:01.001Z] [org.springframework.security.web.DefaultSecurityFilterChain] [restartedMain] [51] [INFO ] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@fe0ca3b, org.springframework.security.web.context.SecurityContextPersistenceFilter@2bd19224, org.springframework.security.web.header.HeaderWriterFilter@2b2c4d6d, org.springframework.security.web.csrf.CsrfFilter@5b06dcbe, org.springframework.security.web.authentication.logout.LogoutFilter@63a1b824, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@5d0ac409, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5e4adc7a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@70e132c8, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@65d52f2e, org.springframework.security.web.session.SessionManagementFilter@3c676827, org.springframework.security.web.access.ExceptionTranslationFilter@34c11b0e, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@109efd3f]
+[2021-03-14T22:23:01.001Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [restartedMain] [181] [INFO ] Initializing ExecutorService 'applicationTaskExecutor'
+[2021-03-14T22:23:01.001Z] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [restartedMain] [58] [INFO ] LiveReload server is running on port 35729
+[2021-03-14T22:23:01.001Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting ProtocolHandler ["http-nio-8080"]
+[2021-03-14T22:23:01.001Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [220] [INFO ] Tomcat started on port(s): 8080 (http) with context path ''
+[2021-03-14T22:23:01.001Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [61] [INFO ] Started ApiSecurityDemoAppApplication in 2.177 seconds (JVM running for 3.266)
+[2021-03-14T22:23:06.006Z] [org.apache.juli.logging.DirectJDKLog] [http-nio-8080-exec-1] [173] [INFO ] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2021-03-14T22:23:06.006Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8080-exec-1] [525] [INFO ] Initializing Servlet 'dispatcherServlet'
+[2021-03-14T22:23:06.006Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8080-exec-1] [547] [INFO ] Completed initialization in 1 ms
+[2021-03-14T22:26:03.003Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [Thread-6] [218] [INFO ] Shutting down ExecutorService 'applicationTaskExecutor'
+[2021-03-14T22:26:03.003Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [55] [INFO ] Starting ApiSecurityDemoAppApplication using Java 1.8.0_181 on DESKTOP-5L3O9NV with PID 17300 (C:\Users\jupit\ide\spring-security-reference\api-security-demo-app\target\classes started by babak in C:\Users\jupit\ide\spring-security-reference\api-security-demo-app)
+[2021-03-14T22:26:03.003Z] [org.springframework.boot.SpringApplication] [restartedMain] [660] [INFO ] No active profile set, falling back to default profiles: default
+[2021-03-14T22:26:04.004Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [108] [INFO ] Tomcat initialized with port(s): 8080 (http)
+[2021-03-14T22:26:04.004Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing ProtocolHandler ["http-nio-8080"]
+[2021-03-14T22:26:04.004Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting service [Tomcat]
+[2021-03-14T22:26:04.004Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.43]
+[2021-03-14T22:26:04.004Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2021-03-14T22:26:04.004Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [restartedMain] [289] [INFO ] Root WebApplicationContext: initialization completed in 248 ms
+[2021-03-14T22:26:04.004Z] [org.springframework.security.web.DefaultSecurityFilterChain] [restartedMain] [51] [INFO ] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3eb65163, org.springframework.security.web.context.SecurityContextPersistenceFilter@3d619635, org.springframework.security.web.header.HeaderWriterFilter@62b4624c, org.springframework.security.web.csrf.CsrfFilter@735f4b36, org.springframework.security.web.authentication.logout.LogoutFilter@67dbfa9c, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@18e2d4fa, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@509ff202, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@11f85c5f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@878fea, org.springframework.security.web.session.SessionManagementFilter@34ee7d65, org.springframework.security.web.access.ExceptionTranslationFilter@68d0a86b, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7395929]
+[2021-03-14T22:26:04.004Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [restartedMain] [181] [INFO ] Initializing ExecutorService 'applicationTaskExecutor'
+[2021-03-14T22:26:04.004Z] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [restartedMain] [58] [INFO ] LiveReload server is running on port 35729
+[2021-03-14T22:26:04.004Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting ProtocolHandler ["http-nio-8080"]
+[2021-03-14T22:26:04.004Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [220] [INFO ] Tomcat started on port(s): 8080 (http) with context path ''
+[2021-03-14T22:26:04.004Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [61] [INFO ] Started ApiSecurityDemoAppApplication in 0.689 seconds (JVM running for 185.794)
+[2021-03-14T22:26:04.004Z] [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] [restartedMain] [63] [INFO ] Condition evaluation unchanged
+[2021-03-14T22:26:23.023Z] [org.apache.juli.logging.DirectJDKLog] [http-nio-8080-exec-1] [173] [INFO ] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2021-03-14T22:26:23.023Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8080-exec-1] [525] [INFO ] Initializing Servlet 'dispatcherServlet'
+[2021-03-14T22:26:23.023Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8080-exec-1] [547] [INFO ] Completed initialization in 1 ms
+[2021-03-14T22:30:12.012Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [Thread-9] [218] [INFO ] Shutting down ExecutorService 'applicationTaskExecutor'
+[2021-03-14T22:30:12.012Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [55] [INFO ] Starting ApiSecurityDemoAppApplication using Java 1.8.0_181 on DESKTOP-5L3O9NV with PID 17300 (C:\Users\jupit\ide\spring-security-reference\api-security-demo-app\target\classes started by babak in C:\Users\jupit\ide\spring-security-reference\api-security-demo-app)
+[2021-03-14T22:30:12.012Z] [org.springframework.boot.SpringApplication] [restartedMain] [660] [INFO ] No active profile set, falling back to default profiles: default
+[2021-03-14T22:30:13.013Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [108] [INFO ] Tomcat initialized with port(s): 8080 (http)
+[2021-03-14T22:30:13.013Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing ProtocolHandler ["http-nio-8080"]
+[2021-03-14T22:30:13.013Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting service [Tomcat]
+[2021-03-14T22:30:13.013Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.43]
+[2021-03-14T22:30:13.013Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2021-03-14T22:30:13.013Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [restartedMain] [289] [INFO ] Root WebApplicationContext: initialization completed in 236 ms
+[2021-03-14T22:30:13.013Z] [org.springframework.context.support.AbstractApplicationContext] [restartedMain] [590] [WARN ] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springSecurityFilterChain' defined in class path resource [org/springframework/security/config/annotation/web/configuration/WebSecurityConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.servlet.Filter]: Factory method 'springSecurityFilterChain' threw exception; nested exception is java.lang.IllegalArgumentException: defaultTarget must start with '/' or with 'http(s)'
+[2021-03-14T22:30:13.013Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Stopping service [Tomcat]
+[2021-03-14T22:30:13.013Z] [org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener] [restartedMain] [136] [INFO ] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[2021-03-14T22:30:13.013Z] [org.springframework.boot.SpringApplication] [restartedMain] [856] [ERROR] Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springSecurityFilterChain' defined in class path resource [org/springframework/security/config/annotation/web/configuration/WebSecurityConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.servlet.Filter]: Factory method 'springSecurityFilterChain' threw exception; nested exception is java.lang.IllegalArgumentException: defaultTarget must start with '/' or with 'http(s)'
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:658)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:486)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1334)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:564)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:917)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:582)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:144)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:767)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:759)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:426)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:326)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1311)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1300)
+	at com.api.ApiSecurityDemoAppApplication.main(ApiSecurityDemoAppApplication.java:10)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.servlet.Filter]: Factory method 'springSecurityFilterChain' threw exception; nested exception is java.lang.IllegalArgumentException: defaultTarget must start with '/' or with 'http(s)'
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	... 27 common frames omitted
+Caused by: java.lang.IllegalArgumentException: defaultTarget must start with '/' or with 'http(s)'
+	at org.springframework.util.Assert.isTrue(Assert.java:121)
+	at org.springframework.security.web.authentication.AbstractAuthenticationTargetUrlRequestHandler.setDefaultTargetUrl(AbstractAuthenticationTargetUrlRequestHandler.java:158)
+	at org.springframework.security.config.annotation.web.configurers.AbstractAuthenticationFilterConfigurer.defaultSuccessUrl(AbstractAuthenticationFilterConfigurer.java:132)
+	at com.api.security.ApplicationSecurityConfig.configure(ApplicationSecurityConfig.java:37)
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter.getHttp(WebSecurityConfigurerAdapter.java:217)
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter.init(WebSecurityConfigurerAdapter.java:315)
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter.init(WebSecurityConfigurerAdapter.java:93)
+	at com.api.security.ApplicationSecurityConfig$$EnhancerBySpringCGLIB$$aeef7096.init(<generated>)
+	at org.springframework.security.config.annotation.AbstractConfiguredSecurityBuilder.init(AbstractConfiguredSecurityBuilder.java:338)
+	at org.springframework.security.config.annotation.AbstractConfiguredSecurityBuilder.doBuild(AbstractConfiguredSecurityBuilder.java:300)
+	at org.springframework.security.config.annotation.AbstractSecurityBuilder.build(AbstractSecurityBuilder.java:38)
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration.springSecurityFilterChain(WebSecurityConfiguration.java:127)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 28 common frames omitted
+[2021-03-14T22:30:55.055Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [55] [INFO ] Starting ApiSecurityDemoAppApplication using Java 1.8.0_181 on DESKTOP-5L3O9NV with PID 17300 (C:\Users\jupit\ide\spring-security-reference\api-security-demo-app\target\classes started by babak in C:\Users\jupit\ide\spring-security-reference\api-security-demo-app)
+[2021-03-14T22:30:55.055Z] [org.springframework.boot.SpringApplication] [restartedMain] [660] [INFO ] No active profile set, falling back to default profiles: default
+[2021-03-14T22:30:55.055Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [108] [INFO ] Tomcat initialized with port(s): 8080 (http)
+[2021-03-14T22:30:55.055Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing ProtocolHandler ["http-nio-8080"]
+[2021-03-14T22:30:55.055Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting service [Tomcat]
+[2021-03-14T22:30:55.055Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.43]
+[2021-03-14T22:30:55.055Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2021-03-14T22:30:55.055Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [restartedMain] [289] [INFO ] Root WebApplicationContext: initialization completed in 259 ms
+[2021-03-14T22:30:55.055Z] [org.springframework.security.web.DefaultSecurityFilterChain] [restartedMain] [51] [INFO ] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3c1c8c50, org.springframework.security.web.context.SecurityContextPersistenceFilter@5db2e7f4, org.springframework.security.web.header.HeaderWriterFilter@28341907, org.springframework.security.web.csrf.CsrfFilter@7f365e85, org.springframework.security.web.authentication.logout.LogoutFilter@695f5a72, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@28241db, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@51232ccb, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@59d7ebc9, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4987e65b, org.springframework.security.web.session.SessionManagementFilter@103d4100, org.springframework.security.web.access.ExceptionTranslationFilter@17f36dc4, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3622af75]
+[2021-03-14T22:30:55.055Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [restartedMain] [181] [INFO ] Initializing ExecutorService 'applicationTaskExecutor'
+[2021-03-14T22:30:55.055Z] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [restartedMain] [58] [INFO ] LiveReload server is running on port 35729
+[2021-03-14T22:30:55.055Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting ProtocolHandler ["http-nio-8080"]
+[2021-03-14T22:30:55.055Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [220] [INFO ] Tomcat started on port(s): 8080 (http) with context path ''
+[2021-03-14T22:30:55.055Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [61] [INFO ] Started ApiSecurityDemoAppApplication in 0.727 seconds (JVM running for 477.261)
+[2021-03-14T22:30:55.055Z] [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] [restartedMain] [63] [INFO ] Condition evaluation unchanged
+[2021-03-14T22:31:03.003Z] [org.apache.juli.logging.DirectJDKLog] [http-nio-8080-exec-1] [173] [INFO ] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2021-03-14T22:31:03.003Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8080-exec-1] [525] [INFO ] Initializing Servlet 'dispatcherServlet'
+[2021-03-14T22:31:03.003Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8080-exec-1] [547] [INFO ] Completed initialization in 0 ms
+[2021-03-14T22:31:40.040Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [Thread-14] [218] [INFO ] Shutting down ExecutorService 'applicationTaskExecutor'
+[2021-03-14T22:31:40.040Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [55] [INFO ] Starting ApiSecurityDemoAppApplication using Java 1.8.0_181 on DESKTOP-5L3O9NV with PID 17300 (C:\Users\jupit\ide\spring-security-reference\api-security-demo-app\target\classes started by babak in C:\Users\jupit\ide\spring-security-reference\api-security-demo-app)
+[2021-03-14T22:31:40.040Z] [org.springframework.boot.SpringApplication] [restartedMain] [660] [INFO ] No active profile set, falling back to default profiles: default
+[2021-03-14T22:31:40.040Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [108] [INFO ] Tomcat initialized with port(s): 8080 (http)
+[2021-03-14T22:31:40.040Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing ProtocolHandler ["http-nio-8080"]
+[2021-03-14T22:31:40.040Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting service [Tomcat]
+[2021-03-14T22:31:40.040Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.43]
+[2021-03-14T22:31:40.040Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2021-03-14T22:31:40.040Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [restartedMain] [289] [INFO ] Root WebApplicationContext: initialization completed in 267 ms
+[2021-03-14T22:31:41.041Z] [org.springframework.security.web.DefaultSecurityFilterChain] [restartedMain] [51] [INFO ] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6f007a97, org.springframework.security.web.context.SecurityContextPersistenceFilter@39887115, org.springframework.security.web.header.HeaderWriterFilter@4f063879, org.springframework.security.web.csrf.CsrfFilter@1c669036, org.springframework.security.web.authentication.logout.LogoutFilter@13de427, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@6153d838, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@29b6921a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@570db2a5, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@18b12fc4, org.springframework.security.web.session.SessionManagementFilter@1147a42b, org.springframework.security.web.access.ExceptionTranslationFilter@5ff9fae4, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@8d5e6d3]
+[2021-03-14T22:31:41.041Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [restartedMain] [181] [INFO ] Initializing ExecutorService 'applicationTaskExecutor'
+[2021-03-14T22:31:41.041Z] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [restartedMain] [58] [INFO ] LiveReload server is running on port 35729
+[2021-03-14T22:31:41.041Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting ProtocolHandler ["http-nio-8080"]
+[2021-03-14T22:31:41.041Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [220] [INFO ] Tomcat started on port(s): 8080 (http) with context path ''
+[2021-03-14T22:31:41.041Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [61] [INFO ] Started ApiSecurityDemoAppApplication in 0.73 seconds (JVM running for 522.456)
+[2021-03-14T22:31:41.041Z] [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] [restartedMain] [63] [INFO ] Condition evaluation unchanged
+[2021-03-14T22:31:45.045Z] [org.apache.juli.logging.DirectJDKLog] [http-nio-8080-exec-1] [173] [INFO ] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2021-03-14T22:31:45.045Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8080-exec-1] [525] [INFO ] Initializing Servlet 'dispatcherServlet'
+[2021-03-14T22:31:45.045Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8080-exec-1] [547] [INFO ] Completed initialization in 2 ms
+[2021-03-14T22:33:13.013Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [Thread-22] [218] [INFO ] Shutting down ExecutorService 'applicationTaskExecutor'
+[2021-03-14T22:33:14.014Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [55] [INFO ] Starting ApiSecurityDemoAppApplication using Java 1.8.0_181 on DESKTOP-5L3O9NV with PID 17300 (C:\Users\jupit\ide\spring-security-reference\api-security-demo-app\target\classes started by babak in C:\Users\jupit\ide\spring-security-reference\api-security-demo-app)
+[2021-03-14T22:33:14.014Z] [org.springframework.boot.SpringApplication] [restartedMain] [660] [INFO ] No active profile set, falling back to default profiles: default
+[2021-03-14T22:33:14.014Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [108] [INFO ] Tomcat initialized with port(s): 8080 (http)
+[2021-03-14T22:33:14.014Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing ProtocolHandler ["http-nio-8080"]
+[2021-03-14T22:33:14.014Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting service [Tomcat]
+[2021-03-14T22:33:14.014Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.43]
+[2021-03-14T22:33:14.014Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2021-03-14T22:33:14.014Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [restartedMain] [289] [INFO ] Root WebApplicationContext: initialization completed in 218 ms
+[2021-03-14T22:33:14.014Z] [org.springframework.security.web.DefaultSecurityFilterChain] [restartedMain] [51] [INFO ] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@566f52d3, org.springframework.security.web.context.SecurityContextPersistenceFilter@82f7919, org.springframework.security.web.header.HeaderWriterFilter@75a083ba, org.springframework.security.web.csrf.CsrfFilter@3dd7283c, org.springframework.security.web.authentication.logout.LogoutFilter@15d21404, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6fe1c267, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1e2d3172, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@76284e52, org.springframework.security.web.session.SessionManagementFilter@cee9fbc, org.springframework.security.web.access.ExceptionTranslationFilter@71b2c378, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@691c3e90]
+[2021-03-14T22:33:14.014Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [restartedMain] [181] [INFO ] Initializing ExecutorService 'applicationTaskExecutor'
+[2021-03-14T22:33:14.014Z] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [restartedMain] [58] [INFO ] LiveReload server is running on port 35729
+[2021-03-14T22:33:14.014Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting ProtocolHandler ["http-nio-8080"]
+[2021-03-14T22:33:14.014Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [220] [INFO ] Tomcat started on port(s): 8080 (http) with context path ''
+[2021-03-14T22:33:14.014Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [61] [INFO ] Started ApiSecurityDemoAppApplication in 0.634 seconds (JVM running for 615.896)
+[2021-03-14T22:33:14.014Z] [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] [restartedMain] [63] [INFO ] Condition evaluation unchanged
+[2021-03-14T22:33:19.019Z] [org.apache.juli.logging.DirectJDKLog] [http-nio-8080-exec-1] [173] [INFO ] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2021-03-14T22:33:19.019Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8080-exec-1] [525] [INFO ] Initializing Servlet 'dispatcherServlet'
+[2021-03-14T22:33:19.019Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8080-exec-1] [547] [INFO ] Completed initialization in 1 ms
+[2021-03-14T22:33:44.044Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [Thread-27] [218] [INFO ] Shutting down ExecutorService 'applicationTaskExecutor'
+[2021-03-14T22:33:44.044Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [55] [INFO ] Starting ApiSecurityDemoAppApplication using Java 1.8.0_181 on DESKTOP-5L3O9NV with PID 17300 (C:\Users\jupit\ide\spring-security-reference\api-security-demo-app\target\classes started by babak in C:\Users\jupit\ide\spring-security-reference\api-security-demo-app)
+[2021-03-14T22:33:44.044Z] [org.springframework.boot.SpringApplication] [restartedMain] [660] [INFO ] No active profile set, falling back to default profiles: default
+[2021-03-14T22:33:45.045Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [108] [INFO ] Tomcat initialized with port(s): 8080 (http)
+[2021-03-14T22:33:45.045Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing ProtocolHandler ["http-nio-8080"]
+[2021-03-14T22:33:45.045Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting service [Tomcat]
+[2021-03-14T22:33:45.045Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.43]
+[2021-03-14T22:33:45.045Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2021-03-14T22:33:45.045Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [restartedMain] [289] [INFO ] Root WebApplicationContext: initialization completed in 251 ms
+[2021-03-14T22:33:45.045Z] [org.springframework.security.web.DefaultSecurityFilterChain] [restartedMain] [51] [INFO ] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7c99b9d2, org.springframework.security.web.context.SecurityContextPersistenceFilter@54d6d593, org.springframework.security.web.header.HeaderWriterFilter@65f0d307, org.springframework.security.web.csrf.CsrfFilter@da7119b, org.springframework.security.web.authentication.logout.LogoutFilter@37137393, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1637ad72, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@753c2c58, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@27c62dba, org.springframework.security.web.session.SessionManagementFilter@61c82bf8, org.springframework.security.web.access.ExceptionTranslationFilter@16aa913a, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@735274bb]
+[2021-03-14T22:33:45.045Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [restartedMain] [181] [INFO ] Initializing ExecutorService 'applicationTaskExecutor'
+[2021-03-14T22:33:45.045Z] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [restartedMain] [58] [INFO ] LiveReload server is running on port 35729
+[2021-03-14T22:33:45.045Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting ProtocolHandler ["http-nio-8080"]
+[2021-03-14T22:33:45.045Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [220] [INFO ] Tomcat started on port(s): 8080 (http) with context path ''
+[2021-03-14T22:33:45.045Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [61] [INFO ] Started ApiSecurityDemoAppApplication in 0.698 seconds (JVM running for 646.871)
+[2021-03-14T22:33:45.045Z] [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] [restartedMain] [63] [INFO ] Condition evaluation unchanged
+[2021-03-14T22:33:48.048Z] [org.apache.juli.logging.DirectJDKLog] [http-nio-8080-exec-1] [173] [INFO ] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2021-03-14T22:33:48.048Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8080-exec-1] [525] [INFO ] Initializing Servlet 'dispatcherServlet'
+[2021-03-14T22:33:48.048Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8080-exec-1] [547] [INFO ] Completed initialization in 2 ms
+[2021-03-14T22:34:39.039Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [Thread-32] [218] [INFO ] Shutting down ExecutorService 'applicationTaskExecutor'
+[2021-03-14T22:34:40.040Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [55] [INFO ] Starting ApiSecurityDemoAppApplication using Java 1.8.0_181 on DESKTOP-5L3O9NV with PID 17300 (C:\Users\jupit\ide\spring-security-reference\api-security-demo-app\target\classes started by babak in C:\Users\jupit\ide\spring-security-reference\api-security-demo-app)
+[2021-03-14T22:34:40.040Z] [org.springframework.boot.SpringApplication] [restartedMain] [660] [INFO ] No active profile set, falling back to default profiles: default
+[2021-03-14T22:34:40.040Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [108] [INFO ] Tomcat initialized with port(s): 8080 (http)
+[2021-03-14T22:34:40.040Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing ProtocolHandler ["http-nio-8080"]
+[2021-03-14T22:34:40.040Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting service [Tomcat]
+[2021-03-14T22:34:40.040Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.43]
+[2021-03-14T22:34:40.040Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2021-03-14T22:34:40.040Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [restartedMain] [289] [INFO ] Root WebApplicationContext: initialization completed in 229 ms
+[2021-03-14T22:34:40.040Z] [org.springframework.security.web.DefaultSecurityFilterChain] [restartedMain] [51] [INFO ] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@512facfc, org.springframework.security.web.context.SecurityContextPersistenceFilter@4c6b7a18, org.springframework.security.web.header.HeaderWriterFilter@2836177c, org.springframework.security.web.csrf.CsrfFilter@45dd6645, org.springframework.security.web.authentication.logout.LogoutFilter@26b0f015, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@2d7f1fb, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1d2df92c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5b88002, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@34cacfc2, org.springframework.security.web.session.SessionManagementFilter@622ac756, org.springframework.security.web.access.ExceptionTranslationFilter@24febd24, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@47460cd5]
+[2021-03-14T22:34:40.040Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [restartedMain] [181] [INFO ] Initializing ExecutorService 'applicationTaskExecutor'
+[2021-03-14T22:34:40.040Z] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [restartedMain] [58] [INFO ] LiveReload server is running on port 35729
+[2021-03-14T22:34:40.040Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting ProtocolHandler ["http-nio-8080"]
+[2021-03-14T22:34:40.040Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [220] [INFO ] Tomcat started on port(s): 8080 (http) with context path ''
+[2021-03-14T22:34:40.040Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [61] [INFO ] Started ApiSecurityDemoAppApplication in 0.65 seconds (JVM running for 701.921)
+[2021-03-14T22:34:40.040Z] [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] [restartedMain] [63] [INFO ] Condition evaluation unchanged
+[2021-03-14T22:34:46.046Z] [org.apache.juli.logging.DirectJDKLog] [http-nio-8080-exec-1] [173] [INFO ] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2021-03-14T22:34:46.046Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8080-exec-1] [525] [INFO ] Initializing Servlet 'dispatcherServlet'
+[2021-03-14T22:34:46.046Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8080-exec-1] [547] [INFO ] Completed initialization in 1 ms
+[2021-03-14T22:35:08.008Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [Thread-37] [218] [INFO ] Shutting down ExecutorService 'applicationTaskExecutor'
+[2021-03-14T22:35:08.008Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [55] [INFO ] Starting ApiSecurityDemoAppApplication using Java 1.8.0_181 on DESKTOP-5L3O9NV with PID 17300 (C:\Users\jupit\ide\spring-security-reference\api-security-demo-app\target\classes started by babak in C:\Users\jupit\ide\spring-security-reference\api-security-demo-app)
+[2021-03-14T22:35:08.008Z] [org.springframework.boot.SpringApplication] [restartedMain] [660] [INFO ] No active profile set, falling back to default profiles: default
+[2021-03-14T22:35:09.009Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [108] [INFO ] Tomcat initialized with port(s): 8080 (http)
+[2021-03-14T22:35:09.009Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing ProtocolHandler ["http-nio-8080"]
+[2021-03-14T22:35:09.009Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting service [Tomcat]
+[2021-03-14T22:35:09.009Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.43]
+[2021-03-14T22:35:09.009Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2021-03-14T22:35:09.009Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [restartedMain] [289] [INFO ] Root WebApplicationContext: initialization completed in 209 ms
+[2021-03-14T22:35:09.009Z] [org.springframework.security.web.DefaultSecurityFilterChain] [restartedMain] [51] [INFO ] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@435a0bce, org.springframework.security.web.context.SecurityContextPersistenceFilter@7314d94f, org.springframework.security.web.header.HeaderWriterFilter@25acd55, org.springframework.security.web.csrf.CsrfFilter@16408e6e, org.springframework.security.web.authentication.logout.LogoutFilter@148a61dd, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@14d1e3ca, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5cde6b16, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@8ba25bd, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@570e5313, org.springframework.security.web.session.SessionManagementFilter@61b518e9, org.springframework.security.web.access.ExceptionTranslationFilter@592ed972, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@103e8671]
+[2021-03-14T22:35:09.009Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [restartedMain] [181] [INFO ] Initializing ExecutorService 'applicationTaskExecutor'
+[2021-03-14T22:35:09.009Z] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [restartedMain] [58] [INFO ] LiveReload server is running on port 35729
+[2021-03-14T22:35:09.009Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting ProtocolHandler ["http-nio-8080"]
+[2021-03-14T22:35:09.009Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [220] [INFO ] Tomcat started on port(s): 8080 (http) with context path ''
+[2021-03-14T22:35:09.009Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [61] [INFO ] Started ApiSecurityDemoAppApplication in 0.635 seconds (JVM running for 730.797)
+[2021-03-14T22:35:09.009Z] [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] [restartedMain] [63] [INFO ] Condition evaluation unchanged
+[2021-03-14T22:35:18.018Z] [org.apache.juli.logging.DirectJDKLog] [http-nio-8080-exec-1] [173] [INFO ] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2021-03-14T22:35:18.018Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8080-exec-1] [525] [INFO ] Initializing Servlet 'dispatcherServlet'
+[2021-03-14T22:35:18.018Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8080-exec-1] [547] [INFO ] Completed initialization in 1 ms
+[2021-03-14T22:39:24.024Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [Thread-42] [218] [INFO ] Shutting down ExecutorService 'applicationTaskExecutor'
+[2021-03-14T22:39:25.025Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [55] [INFO ] Starting ApiSecurityDemoAppApplication using Java 1.8.0_181 on DESKTOP-5L3O9NV with PID 17300 (C:\Users\jupit\ide\spring-security-reference\api-security-demo-app\target\classes started by babak in C:\Users\jupit\ide\spring-security-reference\api-security-demo-app)
+[2021-03-14T22:39:25.025Z] [org.springframework.boot.SpringApplication] [restartedMain] [660] [INFO ] No active profile set, falling back to default profiles: default
+[2021-03-14T22:39:25.025Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [108] [INFO ] Tomcat initialized with port(s): 8080 (http)
+[2021-03-14T22:39:25.025Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing ProtocolHandler ["http-nio-8080"]
+[2021-03-14T22:39:25.025Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting service [Tomcat]
+[2021-03-14T22:39:25.025Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.43]
+[2021-03-14T22:39:25.025Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2021-03-14T22:39:25.025Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [restartedMain] [289] [INFO ] Root WebApplicationContext: initialization completed in 227 ms
+[2021-03-14T22:39:25.025Z] [org.springframework.security.web.DefaultSecurityFilterChain] [restartedMain] [51] [INFO ] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@49fa99e3, org.springframework.security.web.context.SecurityContextPersistenceFilter@6edf61bf, org.springframework.security.web.header.HeaderWriterFilter@7d4e38f4, org.springframework.security.web.csrf.CsrfFilter@6de2badd, org.springframework.security.web.authentication.logout.LogoutFilter@5723275f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@40535d3e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4cd65458, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4b2609ed, org.springframework.security.web.session.SessionManagementFilter@169315e2, org.springframework.security.web.access.ExceptionTranslationFilter@4cfc4bd9, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2a5a25e6]
+[2021-03-14T22:39:25.025Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [restartedMain] [181] [INFO ] Initializing ExecutorService 'applicationTaskExecutor'
+[2021-03-14T22:39:25.025Z] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [restartedMain] [58] [INFO ] LiveReload server is running on port 35729
+[2021-03-14T22:39:25.025Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting ProtocolHandler ["http-nio-8080"]
+[2021-03-14T22:39:25.025Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [220] [INFO ] Tomcat started on port(s): 8080 (http) with context path ''
+[2021-03-14T22:39:25.025Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [61] [INFO ] Started ApiSecurityDemoAppApplication in 0.656 seconds (JVM running for 986.921)
+[2021-03-14T22:39:25.025Z] [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] [restartedMain] [63] [INFO ] Condition evaluation unchanged
+[2021-03-14T22:39:27.027Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [Thread-47] [218] [INFO ] Shutting down ExecutorService 'applicationTaskExecutor'
+[2021-03-14T22:39:27.027Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [55] [INFO ] Starting ApiSecurityDemoAppApplication using Java 1.8.0_181 on DESKTOP-5L3O9NV with PID 17300 (C:\Users\jupit\ide\spring-security-reference\api-security-demo-app\target\classes started by babak in C:\Users\jupit\ide\spring-security-reference\api-security-demo-app)
+[2021-03-14T22:39:27.027Z] [org.springframework.boot.SpringApplication] [restartedMain] [660] [INFO ] No active profile set, falling back to default profiles: default
+[2021-03-14T22:39:27.027Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [108] [INFO ] Tomcat initialized with port(s): 8080 (http)
+[2021-03-14T22:39:27.027Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing ProtocolHandler ["http-nio-8080"]
+[2021-03-14T22:39:27.027Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting service [Tomcat]
+[2021-03-14T22:39:27.027Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.43]
+[2021-03-14T22:39:27.027Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2021-03-14T22:39:27.027Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [restartedMain] [289] [INFO ] Root WebApplicationContext: initialization completed in 212 ms
+[2021-03-14T22:39:28.028Z] [org.springframework.security.web.DefaultSecurityFilterChain] [restartedMain] [51] [INFO ] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3c732cbc, org.springframework.security.web.context.SecurityContextPersistenceFilter@20286f83, org.springframework.security.web.header.HeaderWriterFilter@79fe181c, org.springframework.security.web.csrf.CsrfFilter@20aa4c97, org.springframework.security.web.authentication.logout.LogoutFilter@6166f839, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7bff2a28, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7248e3b3, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1aecddb8, org.springframework.security.web.session.SessionManagementFilter@52944fb2, org.springframework.security.web.access.ExceptionTranslationFilter@4523c5f3, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5d937d9a]
+[2021-03-14T22:39:28.028Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [restartedMain] [181] [INFO ] Initializing ExecutorService 'applicationTaskExecutor'
+[2021-03-14T22:39:28.028Z] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [restartedMain] [58] [INFO ] LiveReload server is running on port 35729
+[2021-03-14T22:39:28.028Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting ProtocolHandler ["http-nio-8080"]
+[2021-03-14T22:39:28.028Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [220] [INFO ] Tomcat started on port(s): 8080 (http) with context path ''
+[2021-03-14T22:39:28.028Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [61] [INFO ] Started ApiSecurityDemoAppApplication in 0.626 seconds (JVM running for 989.463)
+[2021-03-14T22:39:28.028Z] [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] [restartedMain] [63] [INFO ] Condition evaluation unchanged
+[2021-03-14T22:39:42.042Z] [org.apache.juli.logging.DirectJDKLog] [http-nio-8080-exec-1] [173] [INFO ] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2021-03-14T22:39:42.042Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8080-exec-1] [525] [INFO ] Initializing Servlet 'dispatcherServlet'
+[2021-03-14T22:39:42.042Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8080-exec-1] [547] [INFO ] Completed initialization in 1 ms
+[2021-03-14T22:40:03.003Z] [org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin] [RMI TCP Connection(2)-127.0.0.1] [159] [INFO ] Application shutdown requested.
+[2021-03-14T22:40:04.004Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [RMI TCP Connection(2)-127.0.0.1] [218] [INFO ] Shutting down ExecutorService 'applicationTaskExecutor'
+[2021-03-14T22:41:13.013Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [55] [INFO ] Starting ApiSecurityDemoAppApplication using Java 1.8.0_181 on DESKTOP-5L3O9NV with PID 7216 (C:\Users\jupit\ide\spring-security-reference\api-security-demo-app\target\classes started by babak in C:\Users\jupit\ide\spring-security-reference\api-security-demo-app)
+[2021-03-14T22:41:13.013Z] [org.springframework.boot.SpringApplication] [restartedMain] [660] [INFO ] No active profile set, falling back to default profiles: default
+[2021-03-14T22:41:13.013Z] [org.springframework.boot.logging.DeferredLog] [restartedMain] [255] [INFO ] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2021-03-14T22:41:13.013Z] [org.springframework.boot.logging.DeferredLog] [restartedMain] [255] [INFO ] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2021-03-14T22:41:14.014Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [108] [INFO ] Tomcat initialized with port(s): 8080 (http)
+[2021-03-14T22:41:14.014Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing ProtocolHandler ["http-nio-8080"]
+[2021-03-14T22:41:14.014Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting service [Tomcat]
+[2021-03-14T22:41:14.014Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.43]
+[2021-03-14T22:41:14.014Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2021-03-14T22:41:14.014Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [restartedMain] [289] [INFO ] Root WebApplicationContext: initialization completed in 1062 ms
+[2021-03-14T22:41:15.015Z] [org.springframework.security.web.DefaultSecurityFilterChain] [restartedMain] [51] [INFO ] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1c8673e4, org.springframework.security.web.context.SecurityContextPersistenceFilter@65edf10d, org.springframework.security.web.header.HeaderWriterFilter@50075687, org.springframework.security.web.csrf.CsrfFilter@4fa369d4, org.springframework.security.web.authentication.logout.LogoutFilter@40902b07, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5be46bbb, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@c354707, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2b5a6cab, org.springframework.security.web.session.SessionManagementFilter@133f113e, org.springframework.security.web.access.ExceptionTranslationFilter@5baf2bf4, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@a0d406c]
+[2021-03-14T22:41:15.015Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [restartedMain] [181] [INFO ] Initializing ExecutorService 'applicationTaskExecutor'
+[2021-03-14T22:41:15.015Z] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [restartedMain] [58] [INFO ] LiveReload server is running on port 35729
+[2021-03-14T22:41:15.015Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting ProtocolHandler ["http-nio-8080"]
+[2021-03-14T22:41:15.015Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [220] [INFO ] Tomcat started on port(s): 8080 (http) with context path ''
+[2021-03-14T22:41:15.015Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [61] [INFO ] Started ApiSecurityDemoAppApplication in 2.388 seconds (JVM running for 3.492)
+[2021-03-14T22:41:22.022Z] [org.apache.juli.logging.DirectJDKLog] [http-nio-8080-exec-1] [173] [INFO ] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2021-03-14T22:41:22.022Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8080-exec-1] [525] [INFO ] Initializing Servlet 'dispatcherServlet'
+[2021-03-14T22:41:22.022Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8080-exec-1] [547] [INFO ] Completed initialization in 0 ms
+[2021-03-14T22:41:44.044Z] [org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin] [RMI TCP Connection(2)-127.0.0.1] [159] [INFO ] Application shutdown requested.
+[2021-03-14T22:41:45.045Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [RMI TCP Connection(2)-127.0.0.1] [218] [INFO ] Shutting down ExecutorService 'applicationTaskExecutor'
+[2021-03-14T22:42:33.033Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [55] [INFO ] Starting ApiSecurityDemoAppApplication using Java 1.8.0_181 on DESKTOP-5L3O9NV with PID 10824 (C:\Users\jupit\ide\spring-security-reference\api-security-demo-app\target\classes started by babak in C:\Users\jupit\ide\spring-security-reference\api-security-demo-app)
+[2021-03-14T22:42:33.033Z] [org.springframework.boot.SpringApplication] [restartedMain] [660] [INFO ] No active profile set, falling back to default profiles: default
+[2021-03-14T22:42:33.033Z] [org.springframework.boot.logging.DeferredLog] [restartedMain] [255] [INFO ] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2021-03-14T22:42:33.033Z] [org.springframework.boot.logging.DeferredLog] [restartedMain] [255] [INFO ] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2021-03-14T22:42:34.034Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [108] [INFO ] Tomcat initialized with port(s): 8080 (http)
+[2021-03-14T22:42:34.034Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing ProtocolHandler ["http-nio-8080"]
+[2021-03-14T22:42:34.034Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting service [Tomcat]
+[2021-03-14T22:42:34.034Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.43]
+[2021-03-14T22:42:34.034Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2021-03-14T22:42:34.034Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [restartedMain] [289] [INFO ] Root WebApplicationContext: initialization completed in 979 ms
+[2021-03-14T22:42:35.035Z] [org.springframework.security.web.DefaultSecurityFilterChain] [restartedMain] [51] [INFO ] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@490e7dc1, org.springframework.security.web.context.SecurityContextPersistenceFilter@116342ef, org.springframework.security.web.header.HeaderWriterFilter@31e4f4f8, org.springframework.security.web.csrf.CsrfFilter@1db83ddd, org.springframework.security.web.authentication.logout.LogoutFilter@35cd6958, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@712c4dc3, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@54a7db66, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@78c56ff9, org.springframework.security.web.session.SessionManagementFilter@67fd2aff, org.springframework.security.web.access.ExceptionTranslationFilter@46d88242, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@160b5ee6]
+[2021-03-14T22:42:35.035Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [restartedMain] [181] [INFO ] Initializing ExecutorService 'applicationTaskExecutor'
+[2021-03-14T22:42:35.035Z] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [restartedMain] [58] [INFO ] LiveReload server is running on port 35729
+[2021-03-14T22:42:35.035Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting ProtocolHandler ["http-nio-8080"]
+[2021-03-14T22:42:35.035Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [220] [INFO ] Tomcat started on port(s): 8080 (http) with context path ''
+[2021-03-14T22:42:35.035Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [61] [INFO ] Started ApiSecurityDemoAppApplication in 2.426 seconds (JVM running for 3.792)
+[2021-03-14T22:42:39.039Z] [org.apache.juli.logging.DirectJDKLog] [http-nio-8080-exec-1] [173] [INFO ] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2021-03-14T22:42:39.039Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8080-exec-1] [525] [INFO ] Initializing Servlet 'dispatcherServlet'
+[2021-03-14T22:42:39.039Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8080-exec-1] [547] [INFO ] Completed initialization in 1 ms
+[2021-03-14T22:43:06.006Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [Thread-6] [218] [INFO ] Shutting down ExecutorService 'applicationTaskExecutor'
+[2021-03-14T22:43:07.007Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [55] [INFO ] Starting ApiSecurityDemoAppApplication using Java 1.8.0_181 on DESKTOP-5L3O9NV with PID 10824 (C:\Users\jupit\ide\spring-security-reference\api-security-demo-app\target\classes started by babak in C:\Users\jupit\ide\spring-security-reference\api-security-demo-app)
+[2021-03-14T22:43:07.007Z] [org.springframework.boot.SpringApplication] [restartedMain] [660] [INFO ] No active profile set, falling back to default profiles: default
+[2021-03-14T22:43:07.007Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [108] [INFO ] Tomcat initialized with port(s): 8080 (http)
+[2021-03-14T22:43:07.007Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing ProtocolHandler ["http-nio-8080"]
+[2021-03-14T22:43:07.007Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting service [Tomcat]
+[2021-03-14T22:43:07.007Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.43]
+[2021-03-14T22:43:07.007Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2021-03-14T22:43:07.007Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [restartedMain] [289] [INFO ] Root WebApplicationContext: initialization completed in 269 ms
+[2021-03-14T22:43:07.007Z] [org.springframework.security.web.DefaultSecurityFilterChain] [restartedMain] [51] [INFO ] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3977b3f8, org.springframework.security.web.context.SecurityContextPersistenceFilter@2186e433, org.springframework.security.web.header.HeaderWriterFilter@73668242, org.springframework.security.web.csrf.CsrfFilter@75ea8173, org.springframework.security.web.authentication.logout.LogoutFilter@193c1fe9, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@2bb57e1b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@78aa1bb4, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3f19f271, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@311580e9, org.springframework.security.web.session.SessionManagementFilter@461c51, org.springframework.security.web.access.ExceptionTranslationFilter@7b444639, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@46a2a3bf]
+[2021-03-14T22:43:07.007Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [restartedMain] [181] [INFO ] Initializing ExecutorService 'applicationTaskExecutor'
+[2021-03-14T22:43:07.007Z] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [restartedMain] [58] [INFO ] LiveReload server is running on port 35729
+[2021-03-14T22:43:07.007Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting ProtocolHandler ["http-nio-8080"]
+[2021-03-14T22:43:07.007Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [220] [INFO ] Tomcat started on port(s): 8080 (http) with context path ''
+[2021-03-14T22:43:07.007Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [61] [INFO ] Started ApiSecurityDemoAppApplication in 0.772 seconds (JVM running for 36.254)
+[2021-03-14T22:43:07.007Z] [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] [restartedMain] [63] [INFO ] Condition evaluation unchanged
+[2021-03-14T22:43:09.009Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [Thread-9] [218] [INFO ] Shutting down ExecutorService 'applicationTaskExecutor'
+[2021-03-14T22:43:09.009Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [55] [INFO ] Starting ApiSecurityDemoAppApplication using Java 1.8.0_181 on DESKTOP-5L3O9NV with PID 10824 (C:\Users\jupit\ide\spring-security-reference\api-security-demo-app\target\classes started by babak in C:\Users\jupit\ide\spring-security-reference\api-security-demo-app)
+[2021-03-14T22:43:09.009Z] [org.springframework.boot.SpringApplication] [restartedMain] [660] [INFO ] No active profile set, falling back to default profiles: default
+[2021-03-14T22:43:10.010Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [108] [INFO ] Tomcat initialized with port(s): 8080 (http)
+[2021-03-14T22:43:10.010Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing ProtocolHandler ["http-nio-8080"]
+[2021-03-14T22:43:10.010Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting service [Tomcat]
+[2021-03-14T22:43:10.010Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.43]
+[2021-03-14T22:43:10.010Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2021-03-14T22:43:10.010Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [restartedMain] [289] [INFO ] Root WebApplicationContext: initialization completed in 239 ms
