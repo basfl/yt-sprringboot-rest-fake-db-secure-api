@@ -38,16 +38,11 @@ public class ApplicationSecurityConfig extends WebSecurityConfigurerAdapter {
 		// http.csrf().csrfTokenRepository(CookieCsrfTokenRepository.withHttpOnlyFalse()).and()
 		http.csrf().disable().authorizeRequests().antMatchers("/", "index", "/css/*", "/js/*").permitAll()
 				.antMatchers("/api/**").hasAnyRole(STUDENT.name()).anyRequest().authenticated().and().formLogin()
-				.loginPage("/login").permitAll().defaultSuccessUrl("/courses", true)
-				.and().rememberMe().tokenValiditySeconds((int)TimeUnit.DAYS.toMicros(21))
-				.key("supersecurekey")
-				.and().logout().logoutUrl("/logout")
-				.logoutRequestMatcher(new AntPathRequestMatcher("/logout", "GET"))
-				.clearAuthentication(true)
-				.invalidateHttpSession(true)
-				.deleteCookies("JSESSIONID","remember-me")
-				.logoutSuccessUrl("/login");
-			
+				.loginPage("/login").permitAll().defaultSuccessUrl("/courses", true).passwordParameter("password")
+				.usernameParameter("username").and().rememberMe().tokenValiditySeconds((int) TimeUnit.DAYS.toMicros(21))
+				.rememberMeParameter("remember-me").key("supersecurekey").and().logout().logoutUrl("/logout")
+				.logoutRequestMatcher(new AntPathRequestMatcher("/logout", "GET")).clearAuthentication(true)
+				.invalidateHttpSession(true).deleteCookies("JSESSIONID", "remember-me").logoutSuccessUrl("/login");
 
 	}
 
