@@ -13,8 +13,12 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.provisioning.InMemoryUserDetailsManager;
 import org.springframework.security.web.csrf.CookieCsrfTokenRepository;
+import org.springframework.security.web.util.matcher.AntPathRequestMatcher;
 
 import static com.api.security.ApplicationUserRole.*;
+
+import java.sql.Time;
+import java.util.concurrent.TimeUnit;
 
 @Configuration
 @EnableWebSecurity
@@ -34,7 +38,16 @@ public class ApplicationSecurityConfig extends WebSecurityConfigurerAdapter {
 		// http.csrf().csrfTokenRepository(CookieCsrfTokenRepository.withHttpOnlyFalse()).and()
 		http.csrf().disable().authorizeRequests().antMatchers("/", "index", "/css/*", "/js/*").permitAll()
 				.antMatchers("/api/**").hasAnyRole(STUDENT.name()).anyRequest().authenticated().and().formLogin()
-				.loginPage("/login").permitAll().defaultSuccessUrl("/courses", true);
+				.loginPage("/login").permitAll().defaultSuccessUrl("/courses", true)
+				.and().rememberMe().tokenValiditySeconds((int)TimeUnit.DAYS.toMicros(21))
+				.key("supersecurekey")
+				.and().logout().logoutUrl("/logout")
+				.logoutRequestMatcher(new AntPathRequestMatcher("/logout", "GET"))
+				.clearAuthentication(true)
+				.invalidateHttpSession(true)
+				.deleteCookies("JSESSIONID","remember-me")
+				.logoutSuccessUrl("/login");
+			
 
 	}
 
