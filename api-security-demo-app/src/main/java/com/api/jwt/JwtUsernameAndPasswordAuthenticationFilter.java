@@ -51,7 +51,7 @@ public class JwtUsernameAndPasswordAuthenticationFilter extends UsernamePassword
 	@Override
 	protected void successfulAuthentication(HttpServletRequest request, HttpServletResponse response, FilterChain chain,
 			Authentication authResult) throws IOException, ServletException {
-		Key key = Keys.hmacShaKeyFor("secretsecrte".getBytes());
+		Key key = Keys.hmacShaKeyFor("secretsecrtesecretsecrtesecretsecrtesecretsecrtesecretsecrtesecretsecrte".getBytes());
 
 		String token = Jwts.builder().setSubject(authResult.getName()).claim("authorities", authResult.getAuthorities())
 				.setIssuedAt(new java.util.Date()).setExpiration(java.sql.Date.valueOf(LocalDate.now().plusWeeks(2)))

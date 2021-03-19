@@ -13,10 +13,13 @@ import org.springframework.security.config.annotation.method.configuration.Enabl
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
+import org.springframework.security.config.http.SessionCreationPolicy;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.web.util.matcher.AntPathRequestMatcher;
 
 import com.api.auth.ApplicationUserService;
+import com.api.jwt.JwtTokenVerifier;
+import com.api.jwt.JwtUsernameAndPasswordAuthenticationFilter;
 
 @Configuration
 @EnableWebSecurity
@@ -36,14 +39,12 @@ public class ApplicationSecurityConfig extends WebSecurityConfigurerAdapter {
 	public void configure(HttpSecurity http) throws Exception {
 		// super.configure(http);
 		// http.csrf().csrfTokenRepository(CookieCsrfTokenRepository.withHttpOnlyFalse()).and()
-		http.csrf().disable().authorizeRequests().antMatchers("/", "index", "/css/*", "/js/*").permitAll()
-				.antMatchers("/api/**").hasAnyRole(STUDENT.name()).anyRequest().authenticated().and().formLogin()
-				.loginPage("/login").permitAll().defaultSuccessUrl("/courses", true).passwordParameter("password")
-				.usernameParameter("username").and().rememberMe().tokenValiditySeconds((int) TimeUnit.DAYS.toMicros(21))
-				.rememberMeParameter("remember-me").key("supersecurekey").and().logout().logoutUrl("/logout")
-				.logoutRequestMatcher(new AntPathRequestMatcher("/logout", "GET")).clearAuthentication(true)
-				.invalidateHttpSession(true).deleteCookies("JSESSIONID", "remember-me").logoutSuccessUrl("/login");
-
+		http.csrf().disable()
+		.sessionManagement().sessionCreationPolicy(SessionCreationPolicy.STATELESS).and()
+		.addFilter(new JwtUsernameAndPasswordAuthenticationFilter(authenticationManager()))
+		.addFilterAfter(new JwtTokenVerifier(), JwtUsernameAndPasswordAuthenticationFilter.class)
+		.authorizeRequests().antMatchers("/", "index", "/css/*", "/js/*").permitAll()
+				.antMatchers("/api/**").hasAnyRole(STUDENT.name()).anyRequest().authenticated();
 	}
 
 //	@Override
